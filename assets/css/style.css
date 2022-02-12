@@ -258,7 +258,7 @@
 
 
     .menuHamburger{
-        display: block;
+        display: flex;
     }
 
     .menuHamburger{
