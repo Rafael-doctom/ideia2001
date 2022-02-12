@@ -215,7 +215,7 @@
 }
 
 @media (min-width: 425px) and (max-width:767px) {
-    .menu{
+    #menuHamburger{
         display: none;
     } 
     .menuHamburger{

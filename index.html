@@ -21,7 +21,7 @@
             </a>
 
 
-            <div class="menu">
+            <div class="menu" id="menuHamburger">
                 <ul class="unorderedList">
                     <li class="listItem">
                         <a href="" class="listItemAhref">Home</a>
@@ -46,8 +46,8 @@
                 </div>
             </div>
 
-            <div class="menuHamburger">
-                <input type="checkbox" id="checkbox-menu">
+            <div class="menuHamburger" onclick="openMenuHamburger()" >
+                <input type="checkbox" id="checkbox-menu" onclick="removeModal()" >
                 <label for="checkbox-menu">
                     <span></span>
                     <span></span>
