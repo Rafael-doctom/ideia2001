@@ -1,13 +1,14 @@
 /* navbar */
+.navbar{
+    width: 100vw;
+}
 #navbar .nav{
     display: flex;
     justify-content: space-evenly;
-    /* margin: 0 auto; */
     align-items: center;
     height: 15vh;
-    background: white;
+    background-color: var(--white);
 }
-
 .unorderedList{
     display: flex;
 }
@@ -110,4 +111,42 @@
     font-weight: 500;
     cursor: pointer;
 
+}
+
+
+@media (min-width: 1440px)  { 
+    #navbar .nav{
+        background-color: red;
+    }
+    .content{
+        width: 80vw;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width:1440px) { 
+    body{
+        background-color: tomato;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:768px) { 
+    body{
+        background-color: blue;
+    }
+}
+
+
+@media (min-width: 425px) and (max-width:768px) { 
+    body{
+        background-color: gray;
+    }
+}
+
+
+
+@media (min-width: 375px) and (max-width:425px) { 
+    body{
+        background-color: purple;
+    }
 }
