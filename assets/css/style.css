@@ -215,9 +215,48 @@
 }
 
 @media (min-width: 425px) and (max-width:767px) {
+
+    #navbar{
+        width: 90vw;
+        padding: 1rem;
+        font-size: 0.75rem;
+    }
+
+    #navbar .nav{
+        align-items: center;
+        margin-left: 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .logo img{
+        width: 20vw;
+    }
+
+    .authUser img{
+        width: 5vw;
+
+    }
     #menuHamburger{
         display: none;
     } 
+
+    #menuHamburger{
+        background-color: red;
+        width: 50vw;
+        height: 30vh;
+        position: absolute;
+        margin-top: 15rem;
+        padding:1rem;
+    }
+    .unorderedList{
+        flex-direction: column;
+    }
+
+
+
     .menuHamburger{
         display: block;
     }
