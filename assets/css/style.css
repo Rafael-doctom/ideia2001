@@ -244,7 +244,7 @@
     } 
 
     #menuHamburger{
-        background-color: red;
+        background-color: rgb(223, 168, 168);
         width: 50vw;
         height: 30vh;
         position: absolute;
